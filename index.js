@@ -1,3 +1,6 @@
-const welcome = document.createElement("h1");
-welcome.textContent = "Employee Wage Computation Problem";
-document.body.appendChild(welcome);
+function employeeAttendance() {
+    const isPresent = Math.random() < 0.5;
+    const attendance = isPresent ? "Employee is present" : "Employee is absent";
+    console.log(attendance);
+}
+employeeAttendance();
